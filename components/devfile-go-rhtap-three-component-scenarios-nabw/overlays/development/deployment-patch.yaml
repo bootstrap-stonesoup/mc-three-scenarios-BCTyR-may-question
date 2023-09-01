@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-go-rhtap-three-component-scenarios-nabw
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/bootstrap/rhtap-demo-hbff-tenant/mc-three-scenarios/devfile-go-rhtap-three-component-scenarios-nabw@sha256:934c9d0e9fc6c2a1d46dd9cb6574bfce3783efd8f256b11c9e6ab825c8922bad
+        name: my-go
+        resources: {}
+status: {}
